@@ -2,6 +2,10 @@ apply plugin: 'war'
 apply plugin: 'jetty'
 apply plugin: 'eclipse-wtp'
 
+ apply plugin: 'java'
+ sourceCompatibility = 1.6
+ targetCompatibility = 1.6
+
 repositories {
    mavenCentral()
 }
